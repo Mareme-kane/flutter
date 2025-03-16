@@ -107,7 +107,7 @@ class _WeatherPageState extends State<Meteo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Touba_Meteo'),
+        title: Text('MAREME_KANE_METEO'),
       ),
       body: Stack(
         children: [

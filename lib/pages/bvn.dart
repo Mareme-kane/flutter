@@ -39,7 +39,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 ),
               ),
               Text(
-                'TOUBA_METEO',
+                'MAREME_KANE_METEO',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 40,
@@ -69,7 +69,7 @@ class _WelcomePageState extends State<WelcomePage> {
               ),
               const SizedBox(height: 20),
               const Text(
-                'Jeudi 01 Fevrier | 23.26 PM',
+                'Dimanche 16 Mars | 23.26 PM',
                 style: TextStyle(
                   color: Colors.white,
                 ),
@@ -120,7 +120,7 @@ class _WelcomePageState extends State<WelcomePage> {
                 },
                 style: ElevatedButton.styleFrom(
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
-                  primary: Colors.white,
+                  backgroundColor: Colors.white,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
